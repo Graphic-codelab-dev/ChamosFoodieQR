@@ -14,9 +14,22 @@
         });
     </script>
 </head>
-<body>
-    <h1>Redirigiendo a la lista de precios...</h1>
-    <p>Si no eres redirigido automáticamente, <a href="precioschamos.pdf">haz clic aquí para ver el PDF</a>.</p>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: 'Arial', sans-serif; background-image: url('https://example.com/background-arepas.jpg'); background-size: cover; background-position: center;">
+    <div style="padding: 20px; border: 3px solid #FFD700; border-radius: 10px; background-color: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); max-width: 400px; text-align: center;">
+        <img src="https://example.com/venezuela-food-logo.png" alt="Comida Venezolana" style="width: 100px; height: auto; margin-bottom: 15px;">
+        <h1 style="font-size: 1.8em; color: #007BFF; margin-bottom: 10px;">Redirigiendo a nuestra lista de precios...</h1>
+        <p style="font-size: 1em; color: #333; margin-bottom: 20px;">Si no eres redirigido automáticamente, <a href="precioschamos.pdf" style="color: #FF4500; text-decoration: none; font-weight: bold;">haz clic aquí para ver el PDF</a>.</p>
+        <div style="width: 100%; height: 10px; background: linear-gradient(to right, #007BFF, #FFD700, #FF4500); border-radius: 5px; animation: loading 2s infinite;"></div>
+    </div>
+
+    <style>
+        @keyframes loading {
+            0% { width: 0%; }
+            50% { width: 50%; }
+            100% { width: 100%; }
+        }
+    </style>
 </body>
+
 </html>
 
